@@ -1,5 +1,7 @@
 # elm-css-brunch
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/dustinfarris/elm-css-brunch.svg)](https://greenkeeper.io/)
+
 Compile your [elm-css](https://github.com/rtfeldman/elm-css) stylesheets with Brunch.
 
 
