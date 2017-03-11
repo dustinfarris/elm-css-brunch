@@ -1,6 +1,6 @@
 {
   "name": "elm-css-brunch",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Brunch plugin for compiling elm-css stylesheets into CSS files",
   "main": "index.js",
   "dependencies": {
