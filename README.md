@@ -40,6 +40,17 @@ current directory):
 outputDir: '../priv/static/'
 ```
 
+You may also specify a pattern to watch for re-triggering elm-css.
+
+Example:
+
+```
+pattern: 'Styles.elm'
+```
+
+If you do not specify a pattern, a new elm-css build will be triggered every
+time a .elm file is written.
+
 
 ## License
 
