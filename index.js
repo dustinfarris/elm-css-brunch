@@ -26,7 +26,7 @@ class ElmCSSCompiler {
     );
   }
   compile(file) {
-    if (file.path !== this.pluginConfig.sourcePath && !this.ranAtLeastOnce) {
+    if (!file.path.endsWith(this.pluginConfig.sourcePath) && !this.ranAtLeastOnce) {
       // The initial build will match everything, but we don't want to
       // build elm-css for n number of files, just once is fine.
       //
